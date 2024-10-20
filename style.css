@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #FFECB4;
+}
+
+.menu-nav {
+
+    height: 70px;
+    width: 100%;
+    background: #F1C721;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu-logo {
+    margin-left: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+
+.menu-nav nav {
+    
+}
+
+.menu-nav nav a {
+    text-decoration: none;
+    color:#042437;
+    padding: 0.6rem;
+}
+
+.menu-nav nav a:hover {
+
+    color:#054b74;
+
+}
+
+.menu-nav nav a:active {
+    color:#fff;
+}
+
+.menu-btns {
+    margin-right: 20px;
+
+}
+
+.menu-btns .btn-menu-reservas {
+
+    padding: 0.4rem 1rem;
+    border: none;
+    background: #042437;
+    color: #F1C721;
+    font-weight: bold;
+    border-radius: 0.6rem;
+}
+
+.menu-btns .btn-menu-reservas:hover {
+
+    background: #054b74;
+    color: #F1C721;
+
+}
+
+.menu-btns .btn-menu-mobile  {
+
+    display: none;
+}
+
+main {
+
+}
+
+.inicial {
+
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicial header {
+
+    width: 800px;
+    height: 250px;
+    background: #042437;
+
+}
+
+.inicial header h1 {
+
+    padding-top: 2.6rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #F1C721;
+
+}
+
+.inicial header p {
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    color: #F1C721;
+}
+
+.inicial header p a {
+
+    background: #F1C721;
+    color: #042437;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+
+.inicial header .inicial-cta {
+
+}
+
+
+
+
